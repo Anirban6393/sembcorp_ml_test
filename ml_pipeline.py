@@ -32,7 +32,7 @@ path_parent = os.path.dirname(os.getcwd())
 os.chdir(path_parent)
 print(os.getcwd())
 
-mod.save_model('xgbregressor.pkl')
+mod.save_model('rfregressor.pkl')
 
 d_test_norm=pd.DataFrame(Normalizer().fit_transform(d_test.loc[:,'sens_1':'sens_5']))
 cols=list(d_test.columns)
