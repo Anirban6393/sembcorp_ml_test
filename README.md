@@ -9,6 +9,13 @@ Modelevaluator.py - Contains class and its methods for model training, cross val
 
 DB.py - Ability to create database and table, delete and data manipulations operations as well.
 
+I have also added _init_.py file mentioning this scripts inside this directory so that they can be imported.
+```
+from mp.Dataprocessor import *
+from mp.Modelevaluator import *
+from mp.DB import *
+```
+
 ## Rest API
 A RESTful API to return predictions from a trained ML model, built with Python 3 and Flask-RESTX
 
