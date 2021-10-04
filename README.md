@@ -43,5 +43,6 @@ docker build -t akc/test-ml .
 ```
 Next, you can run the docker commands. Be sure to publish export ports for all containers to access.
 ``` 
-docker run -P -d -it akc/test-ml
+docker run -it akc/test-ml
+docker run -P -d akc/test-ml
 ```
