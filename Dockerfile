@@ -8,6 +8,6 @@ COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 1000:1000
 
-ENTRYPOINT python
-CMD ["app.py"]
+
+CMD ["python","./app.py","./visual.py"]
 
