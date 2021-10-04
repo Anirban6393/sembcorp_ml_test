@@ -1,4 +1,10 @@
 # Sembcorp_ml_test
+## Importable Modules
+Inside the mp folder, some importable modules I created worth highlighting.
+Dataprocessor.py - Class and its methods for importing all formats of files, transformation into pivot table, normalisation
+Modelevaluator.py - Contains class and its methods for model training, cross validation, evaluation and persistence into pickle file
+DB.py - Ability to create database and table, delete and data manipulations operations as well.
+
 ## Rest API
 A RESTful API to return predictions from a trained ML model, built with Python 3 and Flask-RESTX
 
