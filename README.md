@@ -42,7 +42,7 @@ The file visual.py is a dashboard showing time series visualisation of sensor 1 
 ```
 (venv) PS > python visual.py
 ```
-Open the URL http://127.0.0.1:1000/ with your browser and you will see the dashboard built from python reputed dash and plotly libraries.
+Open the URL http://127.0.0.1:500/ with your browser and you will see the dashboard built from python reputed dash and plotly libraries.
 
 
 Now, the file python logging_into_db.py creates a separate table for logged data. It creates synthetic data following probability distribution and then feeds them into sqlite3
